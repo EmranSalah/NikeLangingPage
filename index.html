@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation in Twenty Seconds</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nike Landing Page</title>
+    <!-- link google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- apply bootstrap library -->
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- Link with style      -->
+    <link rel="stylesheet" href="public/src/style.css">
 </head>
 <body>
-
+    <!-- create navbar -->
+    <nav>
+        <div class="navbar__top">
+            <div class="navbar__item">
+                <span class="navbar__logo">
+                    Sneakers
+                </span>
+                <img src="" alt="" class="navbar__image">
+            </div>
+            <div class="navbar__item">
+                <div class="navbar__search">
+                    <input type="search" name="search" id="search">
+                    <div class="navbar__search-icon">
+                        <span class="bi-search"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__item">
+                <span class="navbar__offers">
+                    limited Offers
+                </span>
+            </div>
+        </div>
+    </nav>
+    <script src="public/src/main.js"></script>
 </body>
 </html>
